@@ -6,6 +6,38 @@ main .events-section.section-bg .container > .row .custom-block-bg {
   margin-bottom: 1rem;
 }
 
+main .events-section .container .row .col-lg-6 .nossasFontes {
+  background-color: rgb(235, 235, 235);
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+}
+
+main .events-section .container .row .col-lg-6 .nossasFontes .nossasFontes-div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+main .events-section .container .row .col-lg-6 .nossasFontes .nossasFontes-div img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+
+  border-radius: 50%;
+}
+
+main .events-section .container .row .col-lg-6 .nossasFontes .nossasFontes-div span {
+  color: rgb(41, 41, 41);
+}
+
+main .events-section .container .row .col-lg-6 .nossasFontes .nossasFontes-div span span {
+  color: rgb(141, 141, 141);
+}
+
+main .events-section .container .row .col-lg-6 .custom-block-info p {
+  font-size: 1.250rem;
+}
+
 @media (min-width: 992px) {
   main .about-section .container .row .col-lg-3 {
     width: 50%;
