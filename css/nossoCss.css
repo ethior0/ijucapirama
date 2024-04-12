@@ -1,0 +1,13 @@
+main .about-section .container .row .col-lg-3 .member-block .member-block-image-wrap {
+  height: auto;
+}
+
+main .events-section.section-bg .container > .row .custom-block-bg {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
+  main .about-section .container .row .col-lg-3 {
+    width: 50%;
+  }
+}
